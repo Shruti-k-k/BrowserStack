@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/shrut/Automation/BrowserStackTechnical/src/test/java/testcases/WebPageTest.java">
+
+        <parameter name="someFlag" value="true"/>
+
+        <classes>
+
+            <class name="testcases.WebPageTest">
+
+            <methods>
+
+                <include name="webPage"/>
+
+            </methods>
+
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
